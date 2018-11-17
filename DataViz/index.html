@@ -86,7 +86,7 @@ circle { fill: lightcoral;}
     queue()
         .defer(d3.json, "us-states.geojson")
         .defer(d3.tsv, "zips.tsv")
-        .defer(d3.json, "DataViz/Data/zipData.json")
+        .defer(d3.json, "/Data/zipData.json")
         .await(render);
 
     function render(error, states, zips, sales) {
