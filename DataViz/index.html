@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Housing Affordability</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="queue.min.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<style>
+body {
+    background-color: whitesmoke;
+}
+#header {
+    background-color: gray;
+    height: 40px;
+    border-radius: 5px;
+    width: auto;
+    text-align: center;
+}
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24pt;
+    color: lightblue;
+}
+
+#map { 
+    width: 1200px; 
+    height: 600px; 
+    
+    }
+/* SVG styling */
+svg { background-color: whitesmoke; }
+text { fill: #cbcbcb; font-size: 24px; }
+#states { fill: none; stroke: grey; stroke-width: 0.5px; }
+rect { fill: lightblue; }
+circle { fill: lightcoral;}
+/*circle { fill: lightcoral;}*/
+.svg-container {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    padding-bottom: 100%;
+    vertical-align: top;
+    overflow: hidden;
+}
+.svg-content {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+</style>
+<body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <a class="navbar-brand" href="#">HousingAffordability.viz</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarColor02">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                      <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">About</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+
+    <div id="container" class="svg-container"></div>
+    
+<script>
+    var width = 1200, height = 600;
+
+    var proj = d3.geoAlbersUsa().scale(1200)
+            .translate([width / 2, height / 2]);
+
+    var path = d3.geoPath().projection(proj);
+
+    queue()
+        .defer(d3.json, "us-states.geojson")
+        .defer(d3.tsv, "zips.tsv")
+        .defer(d3.json, "/Data/zipData.json")
+        .await(render);
+
+    function render(error, states, zips, sales) {
+        var svg = d3.select("#container").append("svg")
+                    .attr("preserveAspectRatio", "xMinYMin meet")
+                    .attr("viewBox", "0,0,1200,600")
+                    .classed("svg-content", true);
+                    
+        
+        svg.append("g").attr("id","states");
+        d3.select("#states").selectAll("path")
+            .data(states.features)
+            .enter().append("path")
+            .attr("d", path)
+        
+        svg.append("g").attr("id", "zipdots");
+        d3.select("#zipdots").selectAll("rect")
+            .data(zips)
+            .enter().append("rect")
+                .attr("x", function(d) {var p = proj([d.lon,d.lat]); return p ? p[0] : null; })
+                .attr("y", function(d) {var p = proj([d.lon,d.lat]); return p ? p[1] : null;})
+                .attr("width",1)
+                .attr("height", 1);
+
+        svg.append("g").attr("id", "zipdots");
+        d3.select("#zipdots").selectAll("circle")
+            .data(sales)
+            .enter().append("circle")
+                .attr("cx", function(d) {var p = proj([d.Longitude,d.Latitude]); return p ? p[0] : null; })
+                .attr("cy", function(d) {var p = proj([d.Longitude,d.Latitude]); return p ? p[1] : null;})
+                .attr("r", 1);
+    };
+
+</script>
+</body>
+</html>
