@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/theme.css">
+    <script type="text/javascript" src="javascript/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="javascript/mustache.js"></script>
+    <script type="text/javascript" src="javascript/workOrderData.js"></script>
+    <title>Work Management Application</title>
+    
+  </head>
+  <body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg">
+                <h1>Work Management Web App</h1>
+            </div>
+            <div class="col-">
+            <button class="collapsible">Menu</button>
+                <div class="content">
+                    <ul>
+                        <li><a class="nav-link" href="index.html">Home</a></li>
+                        <li><a class="nav-link" href="buildingInfo.html">Building Info</a></li>
+                        <li><a class="nav-link" href="workOrders.html">Work Orders</a> </li>
+                        <li><a class="nav-link" href="personnel.html">Personnel</a> </li>
+                        <li><a class="nav-link" href="customerPortal.html">Customer Portal</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-">
+                <form class="form-inline">
+                    <input class="form-control" type="text" placeholder="Search">
+                    <button class="btn" type="submit">Search</button>
+                  </form>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid">
+            <h1>Work Order Information</h1>
+            <p>On this page you can search for records of your work requests. Use the dropdown box to 
+                select your search criteria. You may also select the date you submitted the request to
+                sort the results by.
+            </p>
+                <div class="row">
+                    
+                    <form class="form-inline">
+                            <input class="form-control" type="text" placeholder="Search">
+                            <button class="btn" type="submit">Search</button>
+                        <div class="col-md">
+                            <select name="search-criteria" placeholder="Search Criteria">
+                                <option value="workOrderNumber">Work Order Number</option>
+                                <option value="buildingNumber">Building Number</option>
+                                <option value="responsibleShop">Responsible Shop</option>
+                            </select>
+                        </div>  
+                        <div class="col-md">
+                            <input type="date" name="request date">
+                        </div>
+                    </form>
+                </div>
+    </div>
+
+    <script id="workorder-template" type="x-tmpl-mustache">
+            <tr>
+                <th>Work Order Number</th>
+                <th>Building Number</th> 
+                <th>Responsible Shop</th>
+                <th>Request Date</th>
+            </tr>
+            {{#workorder}}
+            <tr> 
+                <td>{{WONum}}</td>
+                <td>{{BuildingNum}}</td>
+                <td>{{ResponsibleShop}}</td> 
+                <td>{{RequestDate}}</td>   
+            </tr>
+            {{/workorder}}
+        </script>
+    <div class="container-fluid">
+        <p></p>
+        <p></p>
+            <table id="workOrders" style="width:100%"></table>
+    </div>
+<script src="javascript/workApp.js"></script>
+</body>
+</html>

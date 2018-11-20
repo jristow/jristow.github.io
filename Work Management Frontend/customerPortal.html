@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/theme.css">
+    <title>Work Management Application</title>
+    
+  </head>
+  <body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg">
+                <h1>Work Management Web App</h1>
+            </div>
+            <div class="col-">
+            <button class="collapsible">Menu</button>
+                <div class="content">
+                    <ul>
+                        <li><a class="nav-link" href="index.html">Home</a></li>
+                        <li><a class="nav-link" href="buildingInfo.html">Building Info</a></li>
+                        <li><a class="nav-link" href="workOrders.html">Work Orders</a> </li>
+                        <li><a class="nav-link" href="personnel.html">Personnel</a> </li>
+                        <li><a class="nav-link" href="customerPortal.html">Customer Portal</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-">
+                <form class="form-inline">
+                    <input class="form-control" type="text" placeholder="Search">
+                    <button class="btn" type="submit">Search</button>
+                  </form>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid">
+            <h1>Customer Request Portal</h1>
+            <p>
+                This page allows you to submit any issues you are having. Please be descriptive
+                in your submission as this will help us to route your request and respond quicker.
+            </p>
+            <div class="customerRequest">
+                <form class="customer">
+                    First Name:<br>
+                    <input class="cust-name" type="text" name="firstname"><br>
+                    Last Name:<br>
+                    <input class="cust-name" type="text" name="lastname"><br>
+                    <p></p>
+                    <select name="work-criteria" placeholder="work criteria">
+                        <option value="hvac">HVAC</option>
+                        <option value="electrical">Electrical</option>
+                        <option value="plumbing">Plumbing</option>
+                    </select>
+                    <p></p>
+                        <textarea class="cust-area" name="message" rows="10" cols="40">
+Provide a description of your issue.
+                        </textarea>
+                    <p></p>
+                    <button class="btn" type="submit">Submit Request</button>
+                </form>
+            </div>
+    </div>
+<script src="javascript/workApp.js"></script>
+</body>
+</html>
