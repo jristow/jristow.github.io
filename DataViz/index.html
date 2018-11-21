@@ -110,7 +110,7 @@ circle { fill: lightcoral;}
                 .attr("cy", function (d) { var p = proj([d.Longitude, d.Latitude]); return p ? p[1] : null; })
                 .attr("r", 1)
                 .style("fill", function(d) {
-                    return color(d.HousingAffordabilityIndex)
+                    return color(d.HousingAffordabilityIndex);
                 });
         };
 
