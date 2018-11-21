@@ -1,7 +1,7 @@
 .row,
 .col {
   color: white;
-  background: lightcoral;
+  background: red;
   border-radius: 15px;
 }
 .nav-link {
@@ -76,12 +76,12 @@ p {
 table,
 th,
 td {
-  border: 1px solid lightcoral;
+  border: 1px solid red;
 }
 .customerRequest {
   margin: auto;
   width: 50%;
-  background: lightcoral;
+  background: red;
   border-radius: 15px;
 }
 .customerRequest .customer {
