@@ -100,14 +100,18 @@ circle { fill: lightcoral;}
                 .attr("y", function (d) { var p = proj([d.lon, d.lat]); return p ? p[1] : null; })
                 .attr("width", 1)
                 .attr("height", 1);
-
+            
+            color = d3.scaleLinear().domain([0,300]).range(["red","yellow"]);
             svg.append("g").attr("id", "zipdots");
             d3.select("#zipdots").selectAll("circle")
                 .data(sales)
                 .enter().append("circle")
                 .attr("cx", function (d) { var p = proj([d.Longitude, d.Latitude]); return p ? p[0] : null; })
                 .attr("cy", function (d) { var p = proj([d.Longitude, d.Latitude]); return p ? p[1] : null; })
-                .attr("r", 1);
+                .attr("r", 1)
+                .style("fill", function(d) {
+                    return color(d.HousingAffordabilityIndex)
+                });
         };
 
     </script>
