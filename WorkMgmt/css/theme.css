@@ -1,14 +1,14 @@
 .row,
 .col {
   color: white;
-  background: #78C2AD;
+  background: lightcoral;
   border-radius: 15px;
 }
 .nav-link {
   color: white;
 }
 .collapsible {
-  background-color: #F3969A;
+  background-color: whitesmoke;
   color: white;
   cursor: pointer;
   border: none;
@@ -39,7 +39,7 @@ p {
   padding: 10px;
 }
 .dropbtn {
-  background-color: #F3969A;
+  background-color: whitesmoke;
   color: white;
   padding: 16px;
   font-size: 16px;
@@ -71,17 +71,17 @@ p {
   display: block;
 }
 .dropdown:hover .dropbtn {
-  background-color: #F3969A;
+  background-color: whitesmoke;
 }
 table,
 th,
 td {
-  border: 1px solid #78C2AD;
+  border: 1px solid lightcoral;
 }
 .customerRequest {
   margin: auto;
   width: 50%;
-  background: #78C2AD;
+  background: lightcoral;
   border-radius: 15px;
 }
 .customerRequest .customer {
