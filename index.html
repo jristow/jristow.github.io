@@ -1,146 +1,38 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Jordan Ristow</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" />
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-59453387-2"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'UA-59453387-2');
-</script>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <title>Jordan Ristow | Resume </title>
 </head>
-
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Portfolio</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-                <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link" href="https://ristowcapstoneproject.herokuapp.com/">D3 Sample</a>
-                <a class="nav-item nav-link" href="Grid/index.html">CSS Grid Example</a>
-                <a class="nav-item nav-link" href="WorkMgmt/index.html">Work Management Front end</a>
-            </div>
+    <nav>
+        <div class="nav-wrapper black">
+            <a href="#" class="brand-logo">Jordan Ristow</a>
         </div>
     </nav>
     <div class="container">
-        <div>
-            <h1 class="display-3">About Me</h1>
-            <hr class="my-4">
-            <p class="lead">
-                Hello, my name is Jordan Ristow and I am a full-stack developer/engineer currently
-                searching for a new role.
-            </p>
-            <p>
-                The links at top show some examples of front end work I have done. Under the projects
-                tab below you can find descriptions of other projects I have worked on. I have experience
-                building RESTful API's, front end development and database design.
-            </p>
-
-            <ul class="nav nav-tabs">
-                <li class="nav-item">
-                    <a class="nav-link active" data-toggle="tab" href="#skills">Skills</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" data-toggle="tab" href="#education">Education</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" data-toggle="tab" href="#projects">Project Descriptions</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" data-toggle="tab" href="#contact">Contact Me</a>
-                </li>
-            </ul>
-            <div id="myTabContent" class="tab-content">
-                <div class="tab-pane fade show active" id="skills" role="tabpanel">
-                    <p></p>
-                    <h3></h3>
-                    <h6>Skill Highlights</h6>
-                    <ul>
-                        <li>Python</li>
-                        <ul>
-                            <li>Flask</li>
-                            <li>SQLAlchemy</li>
-                            <li>Django</li>
-                        </ul>
-                        <li>Java</li>
-                        <li>HTML/CSS/Javascript/Angular/React</li>
-                        <li>Node.js</li>
-                        <li>D3.js</li>
-                        <li>SQL: Postgres, MySQL</li>
-                        <li>NoSQL: MongoDB</li>
-                        <li>AWS</li>
-                        <ul>
-                            <li>VPC Development</li>
-                            <li>App Deployment</li>
-                            <li>CI/CD Pipeline build</li>
-                        </ul>
-                    </ul>
-                </div>
-                <div class="tab-pane fade" id="education" role="tabpanel">
-                    <p></p>
-                    <h3>MS Software Development</h3>
-                    <h5>Maryville University of St Louis, Dec 2018</h5>
-                    <p>Relevant Coursework</p>
-                    <ul>
-                        <li>Data Structures and Algorithms</li>
-                        <li>Object Oriented Programming</li>
-                        <li>Web Development for Business Applications</li>
-                    </ul>
-                </div>
-                <div class="tab-pane fade" id="projects" role="tabpanel">
-                    <p></p>
-                    <ul>
-                        <li>Article managment platform
-                            <p>This RESTful API provides users an interface to create, update,
-                                read and delete articles. Powered with Flask on the backend and
-                                MySQL database to store the articles. The GitHub repository for
-                                this project can be found <a href="https://github.com/jristow/MyFlaskApp">here.</a>
-                            </p>
-                            <p>A live deployment for this can be found <a href="https://flaskarticlemanagement.herokuapp.com/">here</a> 
-                            Note: Due to school requirements I have been unable to get a MySQL database set up on Heroku. Once I have more time
-                            I will add to this.</p>
-                        </li>
-                        <li>HousingAffordability.viz
-                            <p>
-                                This app is a data visiualization application showing relative
-                                house affordability throughout the United States. Powered by D3.js
-                                on the front end, Flask on the backend and MongoDB as the database
-                                storing the data. The D3 example is the front end of this application.
-                                The GitHub repository for this project can be found <a href="https://github.com/jristow/capstoneProject-ServiceLayer">here.</a>
-                            </p>
-                        </li>
-                    </ul>
-                </div>
-                <div class="tab-pane fade" id="contact" role="tabpanel">
-                    <p></p>
-                    <ul>
-                        <li>LinkedIn: <a href="https://www.linkedin.com/in/jordanristow">Jordan Ristow</a></li>
-                        <li>E-mail: jristow@gmail.com</li>
-                    </ul>
-                </div>
-                <div><br><br></div>
-            </div>
-
-        </div>
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-            crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-            crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-            crossorigin="anonymous"></script>
+        <h1>Welcome to the interwebs home of Jordan Ristow (aka me).</h1>
+        <p>I am currently working to update my website with a new look and add in
+            some blogging features. Please bear with me as I work through this.
+        </p>
+        <p>In the meantime please feel free to connect with me on social platforms.</p>
+    </div>
+    <div class="container"><p><br></p></div>
+    <div class="container">
+        <div class="row">
+            <div class="col s4"></div>
+            <div class="col s4">
+        <a href="https://github.com/jristow" class="btn-floating black"><i class="material-icons"><img src="github.png"></i></a>
+        <a href="https://linkedin.com/in/jordanristow" class="btn-floating blue"><i class="material-icons"><img src="In-White-21.png"></i></a>
+    </div>
+    <div class="col s4"></div>
+    </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </body>
-
 </html>
