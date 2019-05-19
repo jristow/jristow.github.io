@@ -38,7 +38,9 @@ function Bio() {
               }}
             />
             <p>
-              Written by <strong>{author}</strong>.
+              Written by <strong>{author}</strong>. He is a software developer living in Austin.
+              In his free time he enjoys reading and writing about personal finance and philosophy,
+              and exploring with his goldendoodle.
               {` `}
               <a href={`https://twitter.com/${social.twitter}`}>
                 You should follow him on Twitter
