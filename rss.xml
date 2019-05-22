@@ -1,4 +1,45 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Jordan Ristow]]></title><description><![CDATA[The interwebs home of Jordan Ristow]]></description><link>https://jordanristow.com</link><generator>RSS for Node</generator><lastBuildDate>Tue, 21 May 2019 23:53:09 GMT</lastBuildDate><item><title><![CDATA[Who is Jordan Ristow?]]></title><description><![CDATA[Allow me to reintroduce myself…Since I’ve revamped my site, I figured it would be a good idea to provide a bit more detail on who I am and…]]></description><link>https://jordanristow.com/about-me-post/</link><guid isPermaLink="false">https://jordanristow.com/about-me-post/</guid><pubDate>Tue, 21 May 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Allow me to reintroduce myself…&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Jordan Ristow]]></title><description><![CDATA[The interwebs home of Jordan Ristow]]></description><link>https://jordanristow.com</link><generator>RSS for Node</generator><lastBuildDate>Wed, 22 May 2019 23:57:13 GMT</lastBuildDate><item><title><![CDATA[Missing Places]]></title><description><![CDATA[As I was sitting in a hip taco spot in downtown Boise this past weekend, I started reflecting on what this city means to me. Growing up, I…]]></description><link>https://jordanristow.com/missing-places/</link><guid isPermaLink="false">https://jordanristow.com/missing-places/</guid><pubDate>Wed, 22 May 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/27488134a17472296bdd88da3f114e29/49286/boiseskyline.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 66.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAQD/8QAFgEBAQEAAAAAAAAAAAAAAAAAAgAB/9oADAMBAAIQAxAAAAGNlZlE3I//xAAaEAACAgMAAAAAAAAAAAAAAAABEQACEBIh/9oACAEBAAEFAjpEDihj6W//xAAXEQEBAQEAAAAAAAAAAAAAAAABAAIS/9oACAEDAQE/ATBcF//EABYRAAMAAAAAAAAAAAAAAAAAAAABEv/aAAgBAgEBPwG2Wz//xAAZEAADAQEBAAAAAAAAAAAAAAAAASERMVH/2gAIAQEABj8ChPDghLER4f/EABwQAAICAgMAAAAAAAAAAAAAAAERACFBUWFxgf/aAAgBAQABPyEgBCdqDkxapeG8j0WYiQmI4qGp/9oADAMBAAIAAwAAABAXH//EABYRAQEBAAAAAAAAAAAAAAAAAAEAQf/aAAgBAwEBPxBGSd//xAAVEQEBAAAAAAAAAAAAAAAAAAABAP/aAAgBAgEBPxBGJ//EABoQAQEBAQEBAQAAAAAAAAAAAAERADEhQeH/2gAIAQEAAT8QVJ+dJb8mBC1TwFwukAyiy2jzqd0yAbTtlwSCnB+7/9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;boiseskyline&quot;
+        title=&quot;&quot;
+        src=&quot;/static/27488134a17472296bdd88da3f114e29/c739e/boiseskyline.jpg&quot;
+        srcset=&quot;/static/27488134a17472296bdd88da3f114e29/8ee9c/boiseskyline.jpg 148w,
+/static/27488134a17472296bdd88da3f114e29/ebbe7/boiseskyline.jpg 295w,
+/static/27488134a17472296bdd88da3f114e29/c739e/boiseskyline.jpg 590w,
+/static/27488134a17472296bdd88da3f114e29/5413e/boiseskyline.jpg 885w,
+/static/27488134a17472296bdd88da3f114e29/4efde/boiseskyline.jpg 1180w,
+/static/27488134a17472296bdd88da3f114e29/abfc3/boiseskyline.jpg 1770w,
+/static/27488134a17472296bdd88da3f114e29/49286/boiseskyline.jpg 5472w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;As I was sitting in a hip taco spot in downtown Boise this past weekend, I started reflecting on what this city means to me. Growing up, I never really had a hometown, bouncing from city to city, state to state and even country to country meant nowhere gave me that feeling of “home”. Until I moved to Boise for my undergrad.&lt;/p&gt;
+&lt;p&gt;A few years ago, after spending 10 years here, I moved away for a new job opportunity. For the first year, I had this hole in me, which I attributed to just missing the city of Boise and not settling in to my new location. As time went on, I still felt that hole. It got to a point where I realized it wasn’t just missing the city. There was a feeling my memories of Boise brought up that had nothing to do with a specific location.&lt;/p&gt;
+&lt;p&gt;The more I thought about it, I realized it wasn’t just the city itself. It was the community of people I was able to build while living there. Between friends from my undergrad days, people I met at crossfit and colleagues who became friends, I had an amazing community of people that really made my time in Boise feel like home.&lt;/p&gt;
+&lt;p&gt;Our brains are incredibly powerful. This feeling that is associated to a place affects how I picture the city when I think about it. As time has passed, the people who made up that community have moved on with their lives, taking them out of the city. Physically, the city itself has changed with a lot of development happening while I’ve been away. These two factors combine together so every time I come back it feels less and less like the place I remember. More often, I find myself wondering if this is still the same city I originally fell in love with.&lt;/p&gt;
+&lt;p&gt;What is the place that gives you that feeling of home? Do you find it being more related to the people you have there or the actual physical space?&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Who is Jordan Ristow?]]></title><description><![CDATA[Allow me to reintroduce myself…Since I’ve revamped my site, I figured it would be a good idea to provide a bit more detail on who I am and…]]></description><link>https://jordanristow.com/about-me-post/</link><guid isPermaLink="false">https://jordanristow.com/about-me-post/</guid><pubDate>Tue, 21 May 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Allow me to reintroduce myself…&lt;/h2&gt;
 &lt;p&gt;Since I’ve revamped my site, I figured it would be a good idea to provide a bit more detail on who I am and what my story is (so far). Especially since right now the site is more focused on blogging than being my online portfolio.&lt;/p&gt;
 &lt;h2&gt;Just the highlights&lt;/h2&gt;
 &lt;p&gt;Hi, I’m Jordan! After being miserable with my life, I recently made a huge leap of faith, quit my old job, sold all of my belongings and moved to Austin Texas. I realized I needed focus on what would make me happy instead of worrying about other peoples expectations of me. So here I am, reinventing myself and enjoying life again. This blog is going to be my attempt at documenting my transition as well as an avenue to explore three of my favorite topics: software engineering, personal finance and philsophy/psychology.
