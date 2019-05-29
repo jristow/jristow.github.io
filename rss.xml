@@ -1,4 +1,48 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Jordan Ristow]]></title><description><![CDATA[The interwebs home of Jordan Ristow]]></description><link>https://jordanristow.com</link><generator>RSS for Node</generator><lastBuildDate>Fri, 24 May 2019 20:10:59 GMT</lastBuildDate><item><title><![CDATA[Daily Algorithm Practice - Merge Sorted Lists]]></title><description><![CDATA[Problem StatementGiven two sorted number arrays, nums1 and nums2, merge nums2 into nums1 as one sorted array.We are given m and n which…]]></description><link>https://jordanristow.com/daily-algorithm-24-may/</link><guid isPermaLink="false">https://jordanristow.com/daily-algorithm-24-may/</guid><pubDate>Fri, 24 May 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;Problem Statement&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Jordan Ristow]]></title><description><![CDATA[The interwebs home of Jordan Ristow]]></description><link>https://jordanristow.com</link><generator>RSS for Node</generator><lastBuildDate>Wed, 29 May 2019 00:05:17 GMT</lastBuildDate><item><title><![CDATA[Can We Build a Mentality of Saving in a World Constantly Pushing us to Spend?]]></title><description><![CDATA[59 Percent of Americans consider themselves savers, yet only 38 percent have an emergency fund.I was reading through the Schwab 2019 Modern…]]></description><link>https://jordanristow.com/saving-mentality/</link><guid isPermaLink="false">https://jordanristow.com/saving-mentality/</guid><pubDate>Tue, 28 May 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;59 Percent of Americans consider themselves savers, yet only 38 percent have an emergency fund.&lt;/h2&gt;
+&lt;p&gt;I was reading through the Schwab 2019 Modern Wealth Survey recently and I saw the above highlights, which really blew my mind. How can we claim 59 percent of the population are savers, but less than 40 percent can cover an emergency?&lt;/p&gt;
+&lt;p&gt;Don’t get me wrong, I can understand people who classify themselves as savers but find themselves without anything extra in the bank at the end of the month. I was in that boat for a long time too. I always planned on putting money into my savings, some months actually putting the money in the account, but then a bill would come up that required me pulling that money out and spending it. In my case, I had built up an unsustainable level of monthly expenses, through housing costs, car loans and credit card debt, that I didn’t have enough money coming in each month to allow me to put money away.&lt;/p&gt;
+&lt;p&gt;After getting my car loans and credit card debt sorted out, one of the things that helped me cut back on extraneous spending which allowed me to start building up a savings cushion was this mindset shift, focusing my spending on things that I deeply valued. I realized I had been spending money on so many random things; new clothes, nights out at the bar, various electronic trinkets but none of these items were truly things that I valued and brought a lot of joy to my life. So I sat down and spent some time identifying the areas of my life that brought out the most joy for me. Kind of applying Marie Kondo’s “spark joy” thought process to my finances.&lt;/p&gt;
+&lt;p&gt;Once I identified the top three areas of life that sparked joy in me, I sat down and started allocating money into these areas. Every month I have a note in my phone with my major spending areas and the total amount I can spend in that area for the month. As I make purchases, I subtract that amount from the overall balance for that category and make sure I stay above zero there.
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/e6b3f45c09bdae9582de64e1a3786f77/44dfd/budgetNote.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 117.71336553945251%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAYABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAEF/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEAMQAAAB3UoBKAH/xAAUEAEAAAAAAAAAAAAAAAAAAAAw/9oACAEBAAEFAh//xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAEDAQE/AR//xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAECAQE/AR//xAAUEAEAAAAAAAAAAAAAAAAAAAAw/9oACAEBAAY/Ah//xAAbEAACAQUAAAAAAAAAAAAAAAAQEQABITFh4f/aAAgBAQABPyFBLEeqlX6f/9oADAMBAAIAAwAAABAgwDz/xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAEDAQE/EB//xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAECAQE/EB//xAAbEAEAAgMBAQAAAAAAAAAAAAABESEAEFFB0f/aAAgBAQABPxAAr66BKATdYw+GFnNWsMdwEEGv/9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;simple budget screenshot&quot;
+        title=&quot;&quot;
+        src=&quot;/static/e6b3f45c09bdae9582de64e1a3786f77/c739e/budgetNote.jpg&quot;
+        srcset=&quot;/static/e6b3f45c09bdae9582de64e1a3786f77/8ee9c/budgetNote.jpg 148w,
+/static/e6b3f45c09bdae9582de64e1a3786f77/ebbe7/budgetNote.jpg 295w,
+/static/e6b3f45c09bdae9582de64e1a3786f77/c739e/budgetNote.jpg 590w,
+/static/e6b3f45c09bdae9582de64e1a3786f77/5413e/budgetNote.jpg 885w,
+/static/e6b3f45c09bdae9582de64e1a3786f77/4efde/budgetNote.jpg 1180w,
+/static/e6b3f45c09bdae9582de64e1a3786f77/44dfd/budgetNote.jpg 1242w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+     &lt;center&gt;&lt;i&gt;clearly I spend a lot of money on food and coffee…&lt;/i&gt;&lt;/center&gt;&lt;/p&gt;
+&lt;p&gt;Now, this money is separate from what I need to pay my monthly bills and I also consider saving as a “bill” that I have to pay every month. Doing this for every category of spending you have each month would be helpful as a first step towards wrangling your spending habits.&lt;/p&gt;
+&lt;h3&gt;How does this help?&lt;/h3&gt;
+&lt;p&gt;In the report from Schwab, a third of Americans claim negative influence from social media as causing them to overspend. Amongst millennials and Gen z members, that amount jumps to almost half. But if we have a framework of spending money on the things that bring us the most joy and have identified what those areas are, we can remind ourselves as we scroll through Instagram that all these pictures from our friends don’t necessarily align with our areas of joy. If we don’t value fancy cocktails, then Chad’s post of the awesome drinks he’s having won’t have the same influence. If we don’t value fashion, Becky can post all of the dresses and shoes she wants, but we wont feel pressured to go buy them. &lt;/p&gt;
+&lt;p&gt;In the battle to build financial security in our lives, aligning our spending with what we truly value in life is a pretty powerful tool we should implement. What areas do you find bring you the most joy per buck?&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Daily Algorithm Practice - Merge Sorted Lists]]></title><description><![CDATA[Problem StatementGiven two sorted number arrays, nums1 and nums2, merge nums2 into nums1 as one sorted array.We are given m and n which…]]></description><link>https://jordanristow.com/daily-algorithm-24-may/</link><guid isPermaLink="false">https://jordanristow.com/daily-algorithm-24-may/</guid><pubDate>Fri, 24 May 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;Problem Statement&lt;/h1&gt;
 &lt;p&gt;Given two sorted number arrays, nums1 and nums2, merge nums2 into nums1 as one sorted array.&lt;/p&gt;
 &lt;p&gt;We are given m and n which represent the initialized elements in nums1 and nums2 respectively. We may assume that nums1 was initialized with enough space to fit all values from nums2.&lt;/p&gt;
 &lt;p&gt;Example input:&lt;/p&gt;
