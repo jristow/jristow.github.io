@@ -1,5 +1,5 @@
 ---
-title: 
+title: Daily Algorithm Practice -
 date: 
 description: 
 ---
